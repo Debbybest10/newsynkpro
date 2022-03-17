@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./synkproject.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./github.html">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+   .icon-git{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+   }
+   .fa-github{
+        position: absolute;
+        top: 5%;
+       font-size: 60px;
+   }
+    .cont{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100vh;
+margin-top: 40px;
+
+
+
+    }
+    .git-body{
+        width: 22%;
+        height: 70vh;
+        
+        /* box-shadow: 0px 0px 8px 0px  #D8DEE4; */
+    }
+    .git-synk{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;  
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        margin-left: 90px;
+        margin-top: 30px;
+    
+    }
+    .sign-in{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .sign-p{
+        font-size: 17px;
+        width: 190px;
+       font-family: sans-serif;
+    }
+   /* .sign-in .sign-p .gitH{
+       color: #61292F;
+   } */
+   .line{
+       border-bottom: 1px solid #D8DEE4 ;
+       width: 90%;
+       margin-left: 15px;
+   }
+   .email{
+       margin-top: 20px;
+       margin-left: 8px;
+       padding: 10px;
+       font-size: 12px;
+       font-family: sans-serif;
+
+   }
+   .btn-one{
+    display: flex;
+    /* margin-top: 20px; */
+   }
+   .one, .two, .three{
+       width: 80%;
+       height: 30px;
+       margin-left: 18px;
+       background-color: white;
+       border: 1px solid #D8DEE4;
+       border-radius: 10px;
+    
+   }
+   .passF{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px;
+       font-size: 12px;
+       font-family: sans-serif;
+   }
+   .btn-two, .btn-three{
+       display: flex;
+   }
+   .btn-two{
+       margin-top: -10px;
+   }
+  .btn-three .three{
+      background-color: #2C974B;
+       margin-top: 10px;
+       color: white;
+       padding: 0px 115px;
+   }
+   
+  
+
+</style>
+
+<body>
+    <div class="icon-git"><i class="fa fa-github"></i></div>  
+    <div class="cont">
+   <div class="git-body">
+       <div class="git-synk"><img src="../images/git-synk" alt="" height="50px" width="50px"></div>
+       <div class="sign-in"><p class="sign-p">Sign in to <span class="gitH">Github</span>
+     to continue to <span class="synkL">Synk Login</span></p></div>
+     <div class="line"></div>
+       <div class="email">Username or email address</div>
+       <div class="btn-one"><input oninput="get_name(this)" class="one"
+         type="email" id="username" name="email" required></div>
+       <div class="passF">
+           <p class="pass">Password</p>
+           <p class="forgot"><a href="#">Forgot Password</a></p>
+       </div>
+       <div class="btn-two"><input oninput="get_password(this)" class="two"
+         id="password" type="password" required></div>
+       <div class="btn-three"><a href="./form.html"><button onclick="get_sign(this)" id="sign"
+         class="three">Sign in</button></a></div>
+
+   </div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<script>  </script>
+ let username= document.getElementById("username");
+ let password= document.getElementById("password");
+ let sign=document.getElementById("sign");
+
+function get_name(params) {
+     if ("username.validity.typeMismatch") {
+        username.setCustomValidity("i am expecting an e-mail address!");
+       username.reportValidity();
+     }
+   else {
+
+  }
+
+ function get_sign(params) {
+  if (username.validity.valid && password.validity.valid) {
+       location.replace("./form.html")
+  }
+}
+
+ 
+
+ </script>
+
+

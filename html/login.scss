@@ -1,0 +1,169 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.login-cont{
+    width: 100%;
+    height: 100vh;
+.left-login{
+    width: 40%;
+    height: 100vh;  
+    background-color: #4A3991;
+    float: left;
+    .logo{
+.img-logo{
+    margin-top: -10px;
+margin-left: 30px;  
+}
+    }
+    .fixSrc{
+justify-content: center;
+align-items: center;
+font-size: 40px;
+width: 450px;
+line-height: 100%;
+margin-left: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bolder;
+color: #A89AC7;
+    }   
+    .icons{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 35px;
+        margin-left: 30px;
+        .arrow, .bull, .check{
+            height: 60px;
+            width: 60px;
+            border: 1px solid white;
+            border-radius: 50%; 
+            .fa-arrow-down, .fa-bullseye, .fa-check{
+                color: white;
+                font-size: 20px;
+                height: 50px;
+               margin-left: 20px;
+               margin-top: 20px;
+            }
+            .seam{
+                color: #A89AC7;
+                font-size: 25px;
+                line-height: 85%;
+                font-weight: bold;
+                width: 350px;
+                position: absolute;
+                top: 50%;
+                left: 8%;
+            }
+            .instant{
+                color: #A89AC7;
+                font-size: 25px;
+                line-height: 85%;
+                font-weight: bold;
+                width: 370px;
+                position: absolute;
+                left: 8%;
+                top: 66%;
+            }
+            .quick{
+                color: #A89AC7;
+                font-size: 25px;
+                line-height: 85%;
+                font-weight: bold;
+                width: 350px;
+                position: absolute;
+                left: 8%;
+                top: 84%; 
+            }
+        }
+    }
+    .slant, .slaant{
+        margin-left: 30px;
+        border-left: 1px dashed white;
+        height: 50px;
+    }
+}
+
+.right-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    float: left;
+    .right-details{
+        .get-h1{
+            font-weight: bold;
+           color: #393842;
+        }
+        .no-p{
+        color: #393842;
+        font-size: 25px;
+        margin-left: 20px;
+        
+        }
+        
+        .github{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            width: 100%;
+            height: 70px; 
+            .git{
+                position: relative;
+               background-color :#188B8B;
+               border: 4px solid #188B8B;
+               border-radius: 4px;
+                color: white;
+                font-size: 20px;
+                 padding: 6px 112px;
+
+                .fa-github{
+                    position: absolute;
+                    right: 220px;
+                    font-size: 30px;
+                    color: white;
+                }
+            }
+        }
+        .google{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 70px;
+            .goog{
+                position: relative;
+               background-color :#188B8B;
+               border: 4px solid #188B8B;
+               border-radius: 4px;
+                color: white;
+                font-size: 20px;
+                padding: 6px 112px;
+                .fa-google{
+                  position: absolute;
+                  right: 220px;
+                  font-size: 30px;
+                  color: white;
+                    
+                }
+            }
+        }
+    
+        .sign-refs{
+            color: #61616A;
+           .bitbucket, .azure, .docker{
+               a{
+                 color: #2D8384;  
+               }
+           } 
+        }
+        .line{
+            border-bottom: 2px;
+        }
+    }
+}
+}

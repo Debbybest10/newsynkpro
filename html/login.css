@@ -1,0 +1,159 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+.login-cont {
+  width: 100%;
+  height: 100vh;
+}
+.login-cont .left-login {
+  width: 40%;
+  height: 100vh;
+  background-color: #4A3991;
+  float: left;
+}
+.login-cont .left-login .logo .img-logo {
+  margin-top: -10px;
+  margin-left: 30px;
+}
+.login-cont .left-login .fixSrc {
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 450px;
+  line-height: 100%;
+  margin-left: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  color: #A89AC7;
+}
+.login-cont .left-login .icons {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+.login-cont .left-login .icons .arrow, .login-cont .left-login .icons .bull, .login-cont .left-login .icons .check {
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.login-cont .left-login .icons .arrow .fa-arrow-down, .login-cont .left-login .icons .arrow .fa-bullseye, .login-cont .left-login .icons .arrow .fa-check, .login-cont .left-login .icons .bull .fa-arrow-down, .login-cont .left-login .icons .bull .fa-bullseye, .login-cont .left-login .icons .bull .fa-check, .login-cont .left-login .icons .check .fa-arrow-down, .login-cont .left-login .icons .check .fa-bullseye, .login-cont .left-login .icons .check .fa-check {
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.login-cont .left-login .icons .arrow .seam, .login-cont .left-login .icons .bull .seam, .login-cont .left-login .icons .check .seam {
+  color: #A89AC7;
+  font-size: 25px;
+  line-height: 85%;
+  font-weight: bold;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+.login-cont .left-login .icons .arrow .instant, .login-cont .left-login .icons .bull .instant, .login-cont .left-login .icons .check .instant {
+  color: #A89AC7;
+  font-size: 25px;
+  line-height: 85%;
+  font-weight: bold;
+  width: 370px;
+  position: absolute;
+  left: 8%;
+  top: 66%;
+}
+.login-cont .left-login .icons .arrow .quick, .login-cont .left-login .icons .bull .quick, .login-cont .left-login .icons .check .quick {
+  color: #A89AC7;
+  font-size: 25px;
+  line-height: 85%;
+  font-weight: bold;
+  width: 350px;
+  position: absolute;
+  left: 8%;
+  top: 84%;
+}
+.login-cont .left-login .slant, .login-cont .left-login .slaant {
+  margin-left: 30px;
+  border-left: 1px dashed white;
+  height: 50px;
+}
+.login-cont .right-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100vh;
+  background-color: white;
+  float: left;
+}
+.login-cont .right-login .right-details .get-h1 {
+  font-weight: bold;
+  color: #393842;
+}
+.login-cont .right-login .right-details .no-p {
+  color: #393842;
+  font-size: 25px;
+  margin-left: 20px;
+}
+.login-cont .right-login .right-details .github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+  height: 70px;
+}
+.login-cont .right-login .right-details .github .git {
+  position: relative;
+  background-color: #188B8B;
+  border: 4px solid #188B8B;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  padding: 6px 112px;
+}
+.login-cont .right-login .right-details .github .git .fa-github {
+  position: absolute;
+  right: 220px;
+  font-size: 30px;
+  color: white;
+}
+.login-cont .right-login .right-details .google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+}
+.login-cont .right-login .right-details .google .goog {
+  position: relative;
+  background-color: #188B8B;
+  border: 4px solid #188B8B;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  padding: 6px 112px;
+}
+.login-cont .right-login .right-details .google .goog .fa-google {
+  position: absolute;
+  right: 220px;
+  font-size: 30px;
+  color: white;
+}
+.login-cont .right-login .right-details .sign-refs {
+  color: #61616A;
+}
+.login-cont .right-login .right-details .sign-refs .bitbucket a, .login-cont .right-login .right-details .sign-refs .azure a, .login-cont .right-login .right-details .sign-refs .docker a {
+  color: #2D8384;
+}
+.login-cont .right-login .right-details .line {
+  border-bottom: 2px;
+}
+
+/*# sourceMappingURL=login.css.map */
