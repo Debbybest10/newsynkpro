@@ -238,7 +238,7 @@ html {
 .thirdheader .imgP-cont .right-imgP {
   display: flex;
   color: white;
-  margin-left: 400px;
+  margin-left: 600px;
 }
 .thirdheader .imgP-cont .right-imgP a .all-imgP {
   margin-right: 30px;
@@ -294,7 +294,7 @@ html {
 .fourthheader .butt-three .butt .butt-Teams .what,
 .fourthheader .butt-three .buttn .butt-Teams .what {
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 13px;
 }
 .fourthheader .butt-one .butt .butt-Teams .teamall, .fourthheader .butt-one .buttn .butt-Teams .teamall,
 .fourthheader .butt-two .butt .butt-Teams .teamall,
@@ -311,7 +311,7 @@ html {
 .fourthheader .butt-three .butt .butt-locate .where,
 .fourthheader .butt-three .buttn .butt-locate .where {
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 13px;
 }
 .fourthheader .butt-one .butt .butt-locate .locate, .fourthheader .butt-one .buttn .butt-locate .locate,
 .fourthheader .butt-two .butt .butt-locate .locate,
@@ -466,7 +466,7 @@ html {
   margin-top: 40px;
 }
 .seventh-header .badge .badge-one {
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .all-cont {
@@ -492,7 +492,6 @@ html {
 .all-cont .eighth-header .img-more {
   display: flex;
   width: 100%;
-  justify-content: center;
   margin-top: 40px;
   padding: 10px;
 }
@@ -501,8 +500,8 @@ html {
   background-color: #F6F8FA;
   border: 1px solid #D8DEE4;
   border-radius: 5px;
-  width: 310px;
-  height: 380px;
+  width: 400px;
+  height: 400px;
   margin-left: 25px;
   justify-content: center;
   align-items: center;
@@ -522,7 +521,7 @@ html {
 .all-cont .eighth-header .img-more .first .eighth-p, .all-cont .eighth-header .img-more .second .eighth-p, .all-cont .eighth-header .img-more .third .eighth-p {
   color: #84848E;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   width: 200px;
   margin-left: 45px;
   margin-top: 25px;
@@ -569,26 +568,42 @@ html {
 }
 
 .tenth-header {
+  display: flex;
+  width: 100%;
   background-color: #21214c;
   margin-top: 0.5px;
-  height: 700px;
+  height: 1200px;
   padding: 20px;
   color: white;
+  font-family: sans-serif;
 }
 .tenth-header .row .product, .tenth-header .row .resrcs, .tenth-header .row .compny, .tenth-header .row .xnect, .tenth-header .row .security, .tenth-header .row .synkInfo {
   font-family: sans-serif;
   color: white;
 }
 .tenth-header .row .product h3, .tenth-header .row .resrcs h3, .tenth-header .row .compny h3, .tenth-header .row .xnect h3, .tenth-header .row .security h3, .tenth-header .row .synkInfo h3 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bolder;
 }
 .tenth-header .row .product div, .tenth-header .row .resrcs div, .tenth-header .row .compny div, .tenth-header .row .xnect div, .tenth-header .row .security div, .tenth-header .row .synkInfo div {
-  font-size: 13px;
+  font-size: 15px;
   width: 100px;
 }
 .tenth-header .row .synkInfo {
   width: 200px;
+}
+.tenth-header .row h4 {
+  display: flex;
+  margin-top: 15px;
+}
+.tenth-header .row .footer .footer2, .tenth-header .row .footer .handle, .tenth-header .row .socialhandle .footer2, .tenth-header .row .socialhandle .handle {
+  margin-left: 10px;
+}
+.tenth-header .row .last-h3 h3 {
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 50%;
 }
 
 /*# sourceMappingURL=synkproject.css.map */

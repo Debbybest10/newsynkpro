@@ -260,7 +260,7 @@ html {
         .right-imgP {
             display: flex;
             color: white;
-            margin-left: 400px;
+            margin-left: 600px;
             // position: absolute;
             // top: 5%;
             // left: 45%;
@@ -315,7 +315,7 @@ html {
             .butt-Teams{
                 .what{
                     font-family: sans-serif;
-                    font-size: 10px;
+                    font-size: 13px;
                 }
                 .teamall{
                     font-family: sans-serif;
@@ -326,7 +326,7 @@ html {
             .butt-locate{
                 .where{
                     font-family: sans-serif;
-                    font-size: 10px;
+                    font-size: 13px;
                 }
                 .locate{
                     font-family: sans-serif;
@@ -464,7 +464,7 @@ html {
         display: flex;
         margin-top: 40px;
         .badge-one {
-            margin-left: 30px;
+            margin-left: 50px;
         }
     }
 }
@@ -492,7 +492,7 @@ html {
     .img-more {
         display: flex;
         width: 100%;
-        justify-content: center;
+        // justify-content: center;
         margin-top: 40px;
         padding: 10px;
         .first, .second, .third {
@@ -500,8 +500,8 @@ html {
             background-color: #F6F8FA;
             border: 1px solid #D8DEE4;
             border-radius: 5px;
-            width: 310px;
-            height: 380px;
+            width: 400px;
+            height: 400px;
             margin-left: 25px;
             justify-content: center;
             align-items: center;
@@ -521,7 +521,7 @@ html {
             .eighth-p{
                 color: #84848E;
                 font-family: sans-serif;
-                font-size: 12px;
+                font-size: 15px;
                width: 200px;
                margin-left: 45px;
                margin-top: 25px;
@@ -577,26 +577,46 @@ html {
 }
 
 .tenth-header {
+    display: flex;
+    width: 100%;
     background-color: #21214c;
     margin-top: 0.5px;
-    height: 700px;
+    height: 1200px;
     padding: 20px;
     color: white;
+    font-family: sans-serif;
     .row {
         .product, .resrcs, .compny, .xnect, .security, .synkInfo {
             font-family: sans-serif;
             color: white;
             h3{
-                font-size: 15px;
+                font-size: 20px;
                 font-weight: bolder;
             }
             div{
-                font-size: 13px;
+                font-size: 15px;
                 width: 100px;
             }
         }
         .synkInfo{
             width: 200px;
+        }
+        h4{
+            display: flex;
+            margin-top: 15px;
+        }
+        .footer, .socialhandle{
+            .footer2, .handle{
+                margin-left: 10px;
+            }
+        }
+        .last-h3{
+            h3{
+            margin-top: 15px;
+            font-size: 15px;
+            font-family: sans-serif;
+            line-height: 50%;
+        }  
         }
     }
 }
